@@ -27,7 +27,7 @@ module.exports = {
     searchstores: {
       entry: "./src/pages/searchstores/main.js",
       template: "public/index.html",
-      title: "SignupPerson",
+      title: "Busca",
       chunks: ["chunk-vendors", "chunk-common", "searchstores"],
     },
   },
