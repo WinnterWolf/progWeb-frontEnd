@@ -23,6 +23,18 @@ module.exports = {
       template: 'public/index.html',
       title: 'SignupPerson',
       chunks: ['chunk-vendors', 'chunk-common', 'signupperson']
+    },
+    cadastro: {
+      entry: './src/pages/cadastro/main.js',
+      template: 'public/index.html',
+      title: 'cadastro',
+      chunks: ['chunk-vendors', 'chunk-common', 'cadastro']
+    },
+    carrinho: {
+      entry: './src/pages/carrinho/main.js',
+      template: 'public/index.html',
+      title: 'carrinho',
+      chunks: ['chunk-vendors', 'chunk-common', 'carrinho']
     }
   }
 }
