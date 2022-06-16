@@ -30,11 +30,11 @@ module.exports = {
       title: "cadastro",
       chunks: ["chunk-vendors", "chunk-common", "restaurant"],
     },*/
-    client: {
-      entry: "./src/pages/client/main.js",
+    food: {
+      entry: "./src/pages/food/main.js",
       template: "public/index.html",
       title: "client",
-      chunks: ["chunk-vendors", "chunk-common", "client"],
+      chunks: ["chunk-vendors", "chunk-common", "food"],
     },
   },
 };
