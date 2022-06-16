@@ -14,24 +14,31 @@
         </li>
       </ul>
     </header>
-    <main class="cadastrobox">
-      <form class="inputs">
-        <input type="text" name="pass" placeholder="Nome Fantasia" />
-        <input type="text" name="pass" id="pass" placeholder="Email" />
-        <input type="text" name="pass" id="pass" placeholder="Endereco" />
-        <input type="password" name="pass" id="pass" placeholder="Senha" />
-        <input
-          type="password"
-          name="pass"
-          id="pass"
-          placeholder="Repetir senha"
+
+    <main class="signupbox">
+      <section>
+        <form class="itens_navbar"></form>
+        <header>
+          <input type="text" id="inf" placeholder="Titulo" />
+        </header>
+        <img
+          src="../../assets/logo.png"
+          alt="comida"
+          width="250"
+          height="200"
         />
-        <input type="text" name="pass" id="pass5" placeholder="CNPJ" />
-        <input type="text" name="pass" id="pass5" placeholder="Telefone" />
-        <input type="text" name="pass" id="pass5" placeholder="Complemento" />
-        <input type="submit" id="submit" value="CADASTRAR" />
-      </form>
+      </section>
+      <input type="text" id="inf" placeholder="INFORMAÇÕES SOBRE O PRATO" />
+      <aside>
+        <input
+          class="items_navbar"
+          type="submit"
+          id="submit"
+          value="Confirmar"
+        />
+      </aside>
     </main>
+
     <footer>
       <h4>Nossa marca</h4>
     </footer>
@@ -41,6 +48,10 @@
 <script></script>
 
 <style>
+/*
+Configurar meu css para tela de restaurante - inserir ou editar 
+*/
+
 html {
   font-size: 62.5%;
 }
@@ -100,22 +111,26 @@ a {
   margin-left: 10rem;
 }
 
-.cadastrobox {
+.signupbox {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  width: 44rem;
-  height: 49rem;
+  width: 100rem;
+  height: 50rem;
   background: #a0a0a0;
   border-radius: 1rem;
 }
 
 .inputs {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  row-gap: 3rem;
+  width: 80rem;
+  height: 35rem;
+  flex-wrap: wrap;
+  column-gap: 5rem;
 }
 
 .inputs input {
@@ -126,14 +141,20 @@ a {
   border-style: none;
   outline: none;
   padding: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: black;
 }
 
-.inputs #submit {
+#category {
+  width: 40rem;
+  height: 5rem;
+  text-align: center;
+}
+
+#submit {
   background: #00919a;
   width: 20rem;
-  height: 4rem;
+  height: 7rem;
   border-radius: 0.5rem;
   border-style: none;
   outline: none;
