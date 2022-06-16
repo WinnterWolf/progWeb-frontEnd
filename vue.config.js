@@ -36,6 +36,18 @@ module.exports = {
       title: "Cardapio",
       chunks: ["chunk-vendors", "chunk-common", "menu"],
     },
+    /* restaurant: {
+      entry: "./src/pages/restaurant/main.js",
+      template: "public/index.html",
+      title: "cadastro",
+      chunks: ["chunk-vendors", "chunk-common", "restaurant"],
+    },*/
+    food: {
+      entry: "./src/pages/food/main.js",
+      template: "public/index.html",
+      title: "client",
+      chunks: ["chunk-vendors", "chunk-common", "food"],
+    },
   },
 };
 
