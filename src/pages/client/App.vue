@@ -18,9 +18,7 @@
     <main class="signupbox">
       <section>
         <form class="itens_navbar"></form>
-        <header>
-          <input type="text" id="inf" placeholder="Titulo" />
-        </header>
+
         <img
           src="../../assets/logo.png"
           alt="comida"
@@ -29,14 +27,8 @@
         />
       </section>
       <input type="text" id="inf" placeholder="INFORMAÇÕES SOBRE O PRATO" />
-      <aside>
-        <input
-          class="items_navbar"
-          type="submit"
-          id="submit"
-          value="Confirmar"
-        />
-      </aside>
+
+      <input class="items_navbar" type="submit" id="submit" value="Confirmar" />
     </main>
 
     <footer>
