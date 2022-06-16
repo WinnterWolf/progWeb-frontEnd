@@ -30,6 +30,12 @@ module.exports = {
       title: "Busca",
       chunks: ["chunk-vendors", "chunk-common", "searchstores"],
     },
+    menu: {
+      entry: "./src/pages/menu/main.js",
+      template: "public/index.html",
+      title: "Cardapio",
+      chunks: ["chunk-vendors", "chunk-common", "menu"],
+    },
   },
 };
 
