@@ -164,8 +164,8 @@ body {
   justify-content: flex-end;
 }
 
-.dishesImages {
-}
+/* .dishesImages {
+} */
 
 footer {
   display: flex;
