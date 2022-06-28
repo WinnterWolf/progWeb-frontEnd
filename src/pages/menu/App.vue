@@ -66,32 +66,32 @@
         <div class="box_details">
           <div class="details">
             <div class="detailsWriting">
-              <a href=""><h2>Ver Detalhes</h2></a>
+              <a href="../food/App.vue"><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <a href=""><h2>Ver Detalhes</h2></a>
+              <a href="../food/App.vue"><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <a href=""><h2>Ver Detalhes</h2></a>
+              <a href="../food/App.vue"><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <a href=""><h2>Ver Detalhes</h2></a>
+              <a href="../food/App.vue"><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <a href=""><h2>Ver Detalhes</h2></a>
+              <a href="../food/App.vue"><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <a href=""><h2>Ver Detalhes</h2></a>
+              <a href="../food/App.vue"><h2>Ver Detalhes</h2></a>
             </div>
           </div>
         </div>
