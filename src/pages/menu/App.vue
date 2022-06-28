@@ -66,32 +66,32 @@
         <div class="box_details">
           <div class="details">
             <div class="detailsWriting">
-              <h2>Ver Detalhes</h2>
+              <a href=""><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <h2>Ver Detalhes</h2>
+              <a href=""><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <h2>Ver Detalhes</h2>
+              <a href=""><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <h2>Ver Detalhes</h2>
+              <a href=""><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <h2>Ver Detalhes</h2>
+              <a href=""><h2>Ver Detalhes</h2></a>
             </div>
           </div>
           <div class="details">
             <div class="detailsWriting">
-              <h2>Ver Detalhes</h2>
+              <a href=""><h2>Ver Detalhes</h2></a>
             </div>
           </div>
         </div>
@@ -238,6 +238,10 @@ body {
   background: #808310;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+}
+
+.detailsWriting a {
+  text-decoration: none;
   color: white;
 }
 
